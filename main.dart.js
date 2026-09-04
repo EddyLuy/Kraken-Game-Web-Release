@@ -97817,7 +97817,7 @@ return A.k(m.eJ(),$async$$0)
 case 10:s=8
 break
 case 9:s=11
-return A.k(m.l5(new A.ld("audio/krakenisland_soundbyte.mp3",null)),$async$$0)
+return A.k(m.l5(new A.ld("audio/krakenisland_soundbyte.wav",null)),$async$$0)
 case 11:case 8:o.push(5)
 s=4
 break
@@ -97880,7 +97880,7 @@ l=m.a.f.a
 h=l.z
 B:{if(B.cG===h){i=A.dV(null,t.H)
 break B}if(B.dP===h){i=l.eJ()
-break B}i=l.l5(new A.ld("audio/krakenisland_soundbyte.mp3",null))
+break B}i=l.l5(new A.ld("audio/krakenisland_soundbyte.wav",null))
 break B}g=i
 s=9
 return A.k(A.dl(A.b([j,g],t.mo),t.H),$async$iW)
@@ -97908,7 +97908,7 @@ if(s===B.dO||s===B.np||s===B.hc)r.l5(new A.ld("audio/ocean_calm.wav",null))
 else r.eJ()
 r=this.a.f.a
 s=r.z
-if(s===B.dO||s===B.np||s===B.hc)r.l5(new A.ld("audio/krakenisland_soundbyte.mp3",null))
+if(s===B.dO||s===B.np||s===B.hc)r.l5(new A.ld("audio/krakenisland_soundbyte.wav",null))
 else r.eJ()},
 aH(a){var s,r,q=this
 q.aY(a)
