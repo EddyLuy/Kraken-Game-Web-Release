@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,L,F,M,N,O,D={
-aK1(d,e,f,g,h,i,j){return new D.WP(i,f,g,h,e,j,!0,null)},
+aK2(d,e,f,g,h,i,j){return new D.WP(i,f,g,h,e,j,!0,null)},
 Oy:function Oy(d,e,f,g,h,i){var _=this
 _.c=d
 _.d=e
@@ -98,7 +98,7 @@ aa2:function aa2(d,e){this.a=d
 this.b=e},
 b69(d,e,f){return new D.BW(d,f,e,null)},
 b6a(d,e){return new D.Oz(e,d,null)},
-aNF(d){var x
+aNG(d){var x
 switch(d.a){case 4:x=42
 break
 case 0:x=38
@@ -131,10 +131,10 @@ S=c[15]
 T=c[18]
 K=c[28]
 D.Oy.prototype={
-D(d){var x=this,w=null,v=x.f,u=D.aK1(!0,v,C.SG,w,x.c,"Aim fishing rod left",50)
-u=A.b([u,A.d4(w,w,5),D.aK1(!0,v,C.SH,w,x.d,"Aim fishing rod right",50)],y.u)
+D(d){var x=this,w=null,v=x.f,u=D.aK2(!0,v,C.SG,w,x.c,"Aim fishing rod left",50)
+u=A.b([u,A.d4(w,w,5),D.aK2(!0,v,C.SH,w,x.d,"Aim fishing rod right",50)],y.u)
 u.push(L.cl)
-u.push(D.aK1(!0,v,C.SL,"CAST",x.e,"Hold to charge, release to cast",54))
+u.push(D.aK2(!0,v,C.SL,"CAST",x.e,"Hold to charge, release to cast",54))
 return A.c_(u,B.di,new A.cb("compact-fishing-controls",y.y),B.cT,B.R,0)}}
 D.WP.prototype={
 D(d){var x,w=this,v=null,u=w.r,t=u?new D.atO(w):v,s=u?new D.atP(w):v,r=u?new D.atQ(w):v,q=u?1:0.45,p=F.fU(R.df,2),o=A.e2(10),n=w.e,m=w.d
@@ -146,18 +146,18 @@ D.BW.prototype={
 a9(){var x=A.jG(!0,null,!0,!0,null,null,!1),w=y.x,v=y.i
 return new D.HN(x,B.dN,A.av(y.q),new A.bR(Date.now(),0,!1),C.a3V,C.o_,C.o_,C.o_,B.t9,A.D(w,v),A.D(w,v))}}
 D.HN.prototype={
-gR7(){var x=this.r
+gR9(){var x=this.r
 return x==null?this.r=A.Mx():x},
-gRE(){return 8+A.TC(this.a.d.r)*2},
+gRF(){return 8+A.TC(this.a.d.r)*2},
 gvQ(){var x=this.at*3.141592653589793/180
 return C.dt.L(0,new A.d(Math.cos(x),Math.sin(x)).W(0,150))},
 an(){var x=this
 x.aD()
-x.JG()
+x.JI()
 x.vv()
-x.Ai()
+x.Aj()
 x.p5()
-x.w=A.tJ(G.ru,new D.atM(x))
+x.w=A.tK(G.ru,new D.atM(x))
 $.a1.p4$.push(new D.atN(x))},
 k(){var x=this,w=x.w
 if(w!=null)w.aP()
@@ -174,7 +174,7 @@ var $async$p5=A.q(function(d,e){if(d===1)return A.m(e,w)
 for(;;)switch(x){case 0:s=u.a
 s=!s.d.at||s.e
 if(s){x=1
-break}t=u.gR7()
+break}t=u.gR9()
 x=3
 return A.j(t.mO(B.eb),$async$p5)
 case 3:x=4
@@ -186,7 +186,7 @@ return A.o($async$p5,w)},
 aI(d){var x,w,v=this
 v.b1(d)
 if(d.e===v.a.e)return
-x=v.gR7()
+x=v.gR9()
 w=v.a
 if(w.e)x.eT()
 else if(w.d.at)if(x.z===B.e7)x.fm()
@@ -216,8 +216,8 @@ x=3
 break
 case 5:case 1:return A.n(v,w)}})
 return A.o($async$vv,w)},
-n8(d){return this.akN(d)},
-akN(d){var x=0,w=A.p(y.i),v,u,t,s,r,q
+n8(d){return this.akO(d)},
+akO(d){var x=0,w=A.p(y.i),v,u,t,s,r,q
 var $async$n8=A.q(function(e,f){if(e===1)return A.m(f,w)
 for(;;)switch(x){case 0:s=T
 r=J
@@ -236,17 +236,17 @@ x=1
 break
 case 1:return A.n(v,w)}})
 return A.o($async$n8,w)},
-Ai(){var x=0,w=A.p(y.v),v,u=this,t
-var $async$Ai=A.q(function(d,e){if(d===1)return A.m(e,w)
+Aj(){var x=0,w=A.p(y.v),v,u=this,t
+var $async$Aj=A.q(function(d,e){if(d===1)return A.m(e,w)
 for(;;)switch(x){case 0:x=3
-return A.j(u.n8("assets/sprites/pirate_fishing_idle_sheet.png"),$async$Ai)
+return A.j(u.n8("assets/sprites/pirate_fishing_idle_sheet.png"),$async$Aj)
 case 3:t=e
 if(u.c==null){t.k()
 x=1
 break}u.M(new D.atH(u,t))
 case 1:return A.n(v,w)}})
-return A.o($async$Ai,w)},
-afh(){var x,w,v,u,t,s,r,q=this
+return A.o($async$Aj,w)},
+afi(){var x,w,v,u,t,s,r,q=this
 if(q.c==null||q.a.e)return
 x=new A.bR(Date.now(),0,!1)
 w=B.c.ai(x.e5(q.x).a/1e6,0,0.05)
@@ -265,30 +265,30 @@ if(q.CW>=1){v=q.a.d.f
 q.dy=!1
 u=q.as
 q.z=u
-if(u.N(0,q.y).gaY()<=D.aNF(q.fr)+q.gRE()){u=q.fr
-t=A.aNG(u)
+if(u.N(0,q.y).gaY()<=D.aNG(q.fr)+q.gRF()){u=q.fr
+t=A.aNH(u)
 s=q.fx
 r=s?10:1;++q.db
-q.a.d.BM(u,s)
+q.a.d.BN(u,s)
 u=q.fx
 r=""+t*r
 t=q.fr
 q.k1=u?"Rare catch! Sparkling "+E.BV(t)+" added to special items. +"+r+" Fishing XP!":"Caught! "+E.BV(t)+" added to your inventory. +"+r+" Fishing XP!"
 q.k2=3
 q.cy=0
-q.JG()}else if(++q.cy>=2){q.k1="The fish escaped after two missed casts."
+q.JI()}else if(++q.cy>=2){q.k1="The fish escaped after two missed casts."
 q.k2=3
 q.cy=0
-q.JG()}else{q.k1="Missed! One attempt remains for this fish."
+q.JI()}else{q.k1="Missed! One attempt remains for this fish."
 q.k2=3}q.ax=0
 q.z=q.gvQ()
-if(v>0)q.a.d.EM()
+if(v>0)q.a.d.EO()
 q.d.d_()}}v=q.k2
 if(v>0){v=Math.max(0,v-w)
 q.k2=v
 if(v===0)q.k1=null}q.cx=q.cx+w*4
 q.M(new D.atI())},
-afg(d,e){var x=e.b
+afh(d,e){var x=e.b
 if(!(x.j(0,B.aD)||x.j(0,B.aE)||x.j(0,B.bT)))return B.cg
 if(e instanceof A.fH)this.vV(x,!0)
 if(e instanceof A.id)this.vV(x,!1)
@@ -298,18 +298,18 @@ if(e){if(!x.f.F(0,d))return
 if(d.j(0,B.bT)&&!x.dy&&!x.dx){x.dx=!0
 x.ax=0
 x.ch=1}}else{if(!x.f.E(0,d))return
-if(d.j(0,B.bT)&&x.dx)x.acu()}x.d.d_()},
-acu(){var x=this
+if(d.j(0,B.bT)&&x.dx)x.acv()}x.d.d_()},
+acv(){var x=this
 if(x.dy)return
 x.dx=!1
 x.dy=!0
 x.ay=x.ax
 x.CW=0
 x.Q=x.gvQ()
-x.as=x.Y_(x.ax)},
-Y_(d){var x=this.at*3.141592653589793/180,w=Math.cos(x),v=Math.sin(x),u=70+d*4.3
+x.as=x.Y0(x.ax)},
+Y0(d){var x=this.at*3.141592653589793/180,w=Math.cos(x),v=Math.sin(x),u=70+d*4.3
 return new A.d(B.c.ai(this.gvQ().a+w*u,80,1285),B.c.ai(this.gvQ().b+v*u,245,720))},
-JG(){var x,w,v=this,u=v.e
+JI(){var x,w,v=this,u=v.e
 v.fr=B.dn[u.h6(5)]
 v.fx=u.h6(10)===0
 x=(32+u.eR()*116)*3.141592653589793/180
@@ -317,16 +317,16 @@ w=Math.min(600,500/Math.sin(x))
 u=u.eR()
 v.y=C.dt.L(0,new A.d(Math.cos(x),Math.sin(x)).W(0,285+u*(w-285)))},
 D(d){var x,w,v=this,u=null,t=O.iZ("assets/maps/italian_dock_fishing.png",B.al,B.ir,u,u,u),s=v.y,r=v.fr,q=y.u
-r=A.fu(0,P.aNI(A.xm(A.c5(B.ab,A.b([t,A.dI(u,u,u,new D.WQ(s,r,v.fx,v.fy,v.go,D.aNF(r),v.cx,v.z,v.gRE(),v.as,v.at,v.dy,v.a.d.f>0,v.Y_(v.ax),v.id,u),B.A)],q),B.p,B.cm,u),G.oF),B.fI))
+r=A.fu(0,P.aNJ(A.xo(A.c5(B.ab,A.b([t,A.dI(u,u,u,new D.WQ(s,r,v.fx,v.fy,v.go,D.aNG(r),v.cx,v.z,v.gRF(),v.as,v.at,v.dy,v.a.d.f>0,v.Y0(v.ax),v.id,u),B.A)],q),B.p,B.cm,u),G.oF),B.fI))
 s=v.a
-t=A.bT(u,I.aNr(M.hg,C.ahU,s.c),u,u,16,u,16,u)
+t=A.bT(u,I.aNs(M.hg,C.ahU,s.c),u,u,16,u,16,u)
 x=v.fx?"\u2728 Sparkling ":""
 q=A.b([r,t,A.bT(u,A.el(new A.aG(N.j2,A.a2(x+E.BV(v.fr)+"\nFish caught: "+v.db+" \xb7 Misses: "+v.cy+" / 2",u,u,u,B.bB,u,u,u),u),u,u,u),u,u,u,16,16,u),A.bT(0,A.cP(new D.a1X(v.ax,v.ay,u),u,u),u,u,24,u,0,u),A.bT(16,A.is(!0,new D.Oy(new D.atJ(v),new D.atK(v),new D.atL(v),!s.e,!0,u),!0,B.a_,!0,!1),u,u,16,16,u,u)],q)
 w=v.k1
 if(w!=null){t=B.c.ai(v.k2/0.55,0,1)
 s=F.fU(B.l,2)
 r=A.e2(8)
-q.push(A.bT(u,A.dV(A.a4g(A.cP(A.f0(u,A.a2(w,u,u,u,C.aet,B.c7,u,u),B.v,u,new A.c1(C.KX,u,s,r,u,u,B.ak),u,u,u,C.QJ,u,u,u),u,u),B.V,C.Qs,t),!0,u),u,u,220,220,92,u))}return A.fG(!0,u,A.h6(u,B.l,A.c5(B.ab,q,B.p,B.an,u)),u,u,u,v.d,!0,u,u,u,v.gaff(),u,u)}}
+q.push(A.bT(u,A.dV(A.a4g(A.cP(A.f0(u,A.a2(w,u,u,u,C.aet,B.c7,u,u),B.v,u,new A.c1(C.KX,u,s,r,u,u,B.ak),u,u,u,C.QJ,u,u,u),u,u),B.V,C.Qs,t),!0,u),u,u,220,220,92,u))}return A.fG(!0,u,A.h6(u,B.l,A.c5(B.ab,q,B.p,B.an,u)),u,u,u,v.d,!0,u,u,u,v.gafg(),u,u)}}
 D.WQ.prototype={
 au(a0,a1){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h=this,g=h.b,f=h.w,e=new A.d(g.a,g.b-Math.sin(f)*12),d=h.r
 $.M()
@@ -365,7 +365,7 @@ u=g.a
 u=A.cH(e,g.b,u)
 g=A.T()
 g.Q=B.bx
-a0.c6(s,new A.k(0,0,x,v),u,g)}}if(d)h.anb(a0,e)
+a0.c6(s,new A.k(0,0,x,v),u,g)}}if(d)h.anc(a0,e)
 r=h.ch
 if(r!=null){q=r.c/4
 g=q*B.f.b_(B.c.cv(f),4)
@@ -376,7 +376,7 @@ x=A.T()
 x.Q=B.q
 a0.c6(r,new A.k(g,0,g+q,f),new A.k(d,65,d+p,295),x)}o=h.as*3.141592653589793/180
 n=new A.d(682.5+150*Math.cos(o),180+150*Math.sin(o))
-h.amX(a0,n)
+h.amY(a0,n)
 g=h.at
 f=!g
 if(f){m=new A.d(Math.cos(o),Math.sin(o))
@@ -396,7 +396,7 @@ x.r=C.Kh.bR(0.82).gm()
 x.c=1.15
 x.d=B.ao
 a0.fD(n,d,x)
-if(h.ax&&f)h.an6(a0,n,h.ay)
+if(h.ax&&f)h.an7(a0,n,h.ay)
 i=A.cH(d,7,11)
 f=A.T()
 f.r=B.lQ.gm()
@@ -424,7 +424,7 @@ g.b=B.J
 g.c=2
 a0.d7(h.Q,f,g)}},
 cU(d){return!0},
-amX(d,e){var x,w,v,u,t,s,r,q,p=e.N(0,C.dt),o=p.cF(0,p.gaY()),n=o.b,m=-n,l=o.a,k=new A.d(m,l),j=C.dt.N(0,o.W(0,22)),i=j.L(0,C.A4),h=e.L(0,C.A4)
+amY(d,e){var x,w,v,u,t,s,r,q,p=e.N(0,C.dt),o=p.cF(0,p.gaY()),n=o.b,m=-n,l=o.a,k=new A.d(m,l),j=C.dt.N(0,o.W(0,22)),i=j.L(0,C.A4),h=e.L(0,C.A4)
 $.M()
 x=A.T()
 x.r=B.l.bR(0.42).gm()
@@ -469,7 +469,7 @@ d.d7(q,5.5,l)
 l=A.T()
 l.r=B.a8.gm()
 d.d7(q,1.8,l)},
-anb(d,e){var x,w,v,u,t,s,r,q,p,o,n,m
+anc(d,e){var x,w,v,u,t,s,r,q,p,o,n,m
 $.M()
 x=A.T()
 x.r=C.Mk.gm()
@@ -485,7 +485,7 @@ m.delete()
 m=x.aX()
 s.drawLine.apply(s,[p,o-n,p+0,o+n,m])
 m.delete()}},
-an6(d,e,f){var x,w,v,u,t,s,r,q,p,o
+an7(d,e,f){var x,w,v,u,t,s,r,q,p,o
 $.M()
 x=A.T()
 x.r=K.iJ.gm()
@@ -512,8 +512,8 @@ x=F.fU(B.j,2)
 w=A.e2(9)
 v=y.u
 u=A.b([],v)
-if(q>0)u.push(new A.dC(B.cq,t,t,I.aIC(A.i3(t,new A.c1(t,t,F.fU(B.j.bR(0.42),1.5),A.e2(5),t,t,B.ak),B.bw),q,1),t))
-u.push(new A.dC(B.cq,t,t,I.aIC(A.i3(t,new A.c1(p,t,t,A.e2(5),t,t,B.ak),B.bw),r,1),t))
+if(q>0)u.push(new A.dC(B.cq,t,t,I.aID(A.i3(t,new A.c1(t,t,F.fU(B.j.bR(0.42),1.5),A.e2(5),t,t,B.ak),B.bw),q,1),t))
+u.push(new A.dC(B.cq,t,t,I.aID(A.i3(t,new A.c1(p,t,t,A.e2(5),t,t,B.ak),B.bw),r,1),t))
 return A.bE(A.b([s,B.ee,A.d4(A.c5(B.ab,A.b([A.bT(0,A.f0(t,A.c5(B.ab,u,B.p,B.cm,t),B.v,t,new A.c1(t,t,x,w,t,t,B.ak),t,t,t,C.QY,t,t,t),t,t,4,t,0,18)],v),B.v,B.an,t),180,26),Q.oJ,C.aii],v),B.n,B.m,B.R)}}
 D.Oz.prototype={
 D(d){var x=null,w=A.Ck(x,x,x,M.hg,x,x,this.d,x,x,x,x),v=this.c
@@ -529,7 +529,7 @@ D.atQ.prototype={
 $1(d){return this.a.f.$1(!1)},
 $S:232}
 D.atM.prototype={
-$1(d){return this.a.afh()},
+$1(d){return this.a.afi()},
 $S:46}
 D.atN.prototype={
 $1(d){return this.a.d.d_()},
@@ -555,9 +555,9 @@ $S:7}
 D.aa3.prototype={
 $2(d,e){var x,w,v,u,t,s,r,q,p,o,n=null,m=y.u,l=A.b([C.Jo],m)
 for(x=this.a,w=x.c,v=0;v<5;++v){u=B.dn[v]
-t=E.aMJ(D.b4E(u),C.Tx)
+t=E.aMK(D.b4E(u),C.Tx)
 s=A.a2(E.BV(u),n,n,n,n,n,n,n)
-r=A.aIv(u)
+r=A.aIw(u)
 q=w.d
 p=q.h(0,u)
 if(p==null)p=0
@@ -565,15 +565,15 @@ p=A.a2(""+r+" gold each \xb7 "+p+" owned",n,n,n,n,n,n,n)
 r=q.h(0,u)
 o=A.agG(C.aho,(r==null?0:r)>0?new D.aa1(x,u):n)
 r=q.h(0,u)
-l.push(A.el(A.dJ(!1,n,n,n,!0,n,n,n,!0,n,t,n,n,n,n,n,!1,n,n,n,n,p,n,s,new A.GJ(B.cD,8,0,B.fn,A.b([o,A.jE(C.ahI,(r==null?0:r)>0?new D.aa2(x,u):n)],m),n),n),n,n,n))}return E.wi(l,H.j4,n,!1)},
+l.push(A.el(A.dJ(!1,n,n,n,!0,n,n,n,!0,n,t,n,n,n,n,n,!1,n,n,n,n,p,n,s,new A.GJ(B.cD,8,0,B.fn,A.b([o,A.jE(C.ahI,(r==null?0:r)>0?new D.aa2(x,u):n)],m),n),n),n,n,n))}return E.wk(l,H.j4,n,!1)},
 $S:z+1}
 D.aa1.prototype={
-$0(){return this.a.c.a58(this.b)},
+$0(){return this.a.c.a59(this.b)},
 $S:0}
 D.aa2.prototype={
 $0(){return this.a.c.qr(this.b,!0)},
 $S:0};(function installTearOffs(){var x=a._instance_2u
-x(D.HN.prototype,"gaff","afg",0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
+x(D.HN.prototype,"gafg","afh",0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
 x(A.Y,[D.Oy,D.WP,D.a1X,D.Oz])
 x(A.e4,[D.atO,D.atP,D.atQ,D.atM,D.atN,D.atJ,D.atK,D.atL])
 w(D.BW,A.U)
@@ -585,7 +585,7 @@ A.hQ(b.typeUniverse,JSON.parse('{"Oy":{"Y":[],"f":[]},"WP":{"Y":[],"f":[]},"BW":
 var y={x:A.W("kI"),i:A.W("eq"),u:A.W("r<f>"),q:A.W("i"),y:A.W("cb<I>"),v:A.W("~")};(function constants(){var x=a.makeConstList
 C.aid=new A.ai("Fresh catches fetch a fair price. Sparkling fish are special items, so I will not buy those.",null,null,null,null,null,null,null,null,null)
 C.a5l=new A.aG(H.j4,C.aid,null)
-C.Jo=new A.v5(null,null,null,C.a5l,null)
+C.Jo=new A.v7(null,null,null,C.a5l,null)
 C.Kh=new A.h(1,0.7843137254901961,0.8235294117647058,0.8313725490196079,B.d)
 C.Kr=new A.h(1,0.3686274509803922,0.5490196078431373,0.3803921568627451,B.d)
 C.KG=new A.h(1,0.4,0.4666666666666667,0.26666666666666666,B.d)
@@ -637,4 +637,4 @@ C.ahI=new A.ai("Sell All",null,null,null,null,null,null,null,null,null)
 C.ahU=new A.ai("Italy Town Square",null,null,null,null,null,null,null,null,null)
 C.ad6=new A.v(!0,B.j,null,null,null,null,10,B.a0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,K.uj,null,null,null)
 C.aii=new A.ai("POWER",null,C.ad6,null,null,null,null,null,null,null)})()};
-(a=>{a["t6n7XSzy+tY53/8QXbbQieJ+LyA="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["vVwi5jb5x5aLkTRM1oXB9Lxq8fA="]=a.current})($__dart_deferred_initializers__);

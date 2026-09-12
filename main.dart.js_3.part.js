@@ -1,16 +1,16 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,I,E,G,F,D={
-v3(){var x=0,w=A.p(y.t),v,u,t
-var $async$v3=A.q(function(d,e){if(d===1)return A.m(e,w)
+v5(){var x=0,w=A.p(y.t),v,u,t
+var $async$v5=A.q(function(d,e){if(d===1)return A.m(e,w)
 for(;;)switch(x){case 0:x=3
-return A.j(A.bM(A.b([D.qm("assets/sprites/cannonballs/cannonball_standard.png"),D.qm("assets/sprites/cannonballs/cannonball_combust.png"),D.qm("assets/sprites/cannonballs/cannonball_arc.png")],y.F),y.i),$async$v3)
+return A.j(A.bM(A.b([D.qm("assets/sprites/cannonballs/cannonball_standard.png"),D.qm("assets/sprites/cannonballs/cannonball_combust.png"),D.qm("assets/sprites/cannonballs/cannonball_arc.png")],y.F),y.i),$async$v5)
 case 3:u=e
 t=J.bl(u)
 v=new D.MX(t.h(u,0),t.h(u,1),t.h(u,2))
 x=1
 break
 case 1:return A.n(v,w)}})
-return A.o($async$v3,w)},
+return A.o($async$v5,w)},
 qm(d){var x=0,w=A.p(y.i),v,u,t,s
 var $async$qm=A.q(function(e,f){if(e===1)return A.m(f,w)
 for(;;)switch(x){case 0:x=3
@@ -141,9 +141,9 @@ if(t!=null)s.snz(new A.iV(t,B.il,null,B.es))
 d.c6(x,new A.k(0,0,w,v),u,s)
 r=e.c
 if(g===B.db&&r!=null)D.b5u(d,r,u,h)
-if(f.dx>0&&f.fr)D.aSb(d,e.d,new A.d(0,-i*0.32),i*0.3,D.aSu(g))
-if(f.dy>0&&f.fx)D.aSb(d,e.e,new A.d(0,i*0.32),i*0.4,D.aSu(g))},
-aSu(d){var x
+if(f.dx>0&&f.fr)D.aSc(d,e.d,new A.d(0,-i*0.32),i*0.3,D.aSv(g))
+if(f.dy>0&&f.fx)D.aSc(d,e.e,new A.d(0,i*0.32),i*0.4,D.aSv(g))},
+aSv(d){var x
 A:{if(B.fG===d){x=G.lS
 break A}if(B.fz===d){x=C.Mi
 break A}if(B.fA===d){x=C.LC
@@ -157,10 +157,10 @@ break A}x=null
 break A}return x==null?null:new A.iV(x,B.il,null,B.es)},
 b5u(d,e,f,g){var x,w,v,u,t,s,r,q,p,o,n,m=(Math.sin(g*2.8)+1)/2,l=new A.k(0,0,e.c,e.d)
 for(x=g*0.16,w=f.b,v=f.d-w,u=v*0.13,t=0.1+m*0.04,s=v*0.075,r=0.25+m*0.08,q=v*0.026,p=0.7+m*0.16,o=0;o<6;++o){n=w+B.c.b_(x+o/6,1)*v
-D.aKs(d,e,l,f,n,u,new A.h(t,1,0.23921568627450981,0,B.d))
-D.aKs(d,e,l,f,n,s,new A.h(r,1,0.5686274509803921,0,B.d))
-D.aKs(d,e,l,f,n,q,new A.h(p,1,0.9607843137254902,0.6274509803921569,B.d))}},
-aKs(d,e,f,g,h,i,j){var x,w=d.a
+D.aKt(d,e,l,f,n,u,new A.h(t,1,0.23921568627450981,0,B.d))
+D.aKt(d,e,l,f,n,s,new A.h(r,1,0.5686274509803921,0,B.d))
+D.aKt(d,e,l,f,n,q,new A.h(p,1,0.9607843137254902,0.6274509803921569,B.d))}},
+aKt(d,e,f,g,h,i,j){var x,w=d.a
 J.a8(w.save())
 w.clipRect(A.bI(A.cH(new A.d(g.gaQ().a,h),i,g.c-g.a)),$.hW()[1],!0)
 $.M()
@@ -169,7 +169,7 @@ x.Q=B.al
 x.snz(new A.iV(j,B.pG,null,B.es))
 d.c6(e,f,g,x)
 w.restore()},
-aSb(d,e,f,g,h){var x=e.c,w=e.d,v=A.cH(f,g,g*x/w),u=new A.k(0,0,x,w)
+aSc(d,e,f,g,h){var x=e.c,w=e.d,v=A.cH(f,g,g*x/w),u=new A.k(0,0,x,w)
 w=v.cw(C.a4s)
 $.M()
 x=A.T()
@@ -187,7 +187,7 @@ _.c=f
 _.d=g
 _.e=h},
 Pj(d,e,f,g,h,i,j){var x=null
-return new A.w4(x,j,g,x,e,x,f,i,x,d,h,B.akG,x)},
+return new A.w6(x,j,g,x,e,x,f,i,x,d,h,B.akG,x)},
 aH9(d,e,f,g){var x,w,v=0.24*B.cN.ag(B.c.ai(f/0.28,0,1))
 if(v<=0)return
 x=A.ld(e,g)
@@ -215,21 +215,21 @@ D(d){var x=null,w=A.e2(12),v=F.fU(C.m_,1)
 return A.dV(A.i3(new A.aG(C.R4,A.a2(this.c?"\u2190\u2191\u2192\u2193 Sail  \u2022  WASD Fire  \u2022  Space Ammo":"\u2190\u2191\u2192\u2193 Sail",1,x,x,C.ad5,x,x,x),x),new A.c1(C.Mj,x,v,w,x,x,B.ak),B.bw),!0,x)}}
 D.ot.prototype={
 a9(){return new D.IP(B.h)},
-a2K(d){return this.c.$1(d)}}
+a2L(d){return this.c.$1(d)}}
 D.IP.prototype={
-aln(d){var x=this,w={},v=w.a=x.d.L(0,d),u=v.gaY()>34?w.a=v.cF(0,v.gaY()).W(0,34):v,t=x.a
+alo(d){var x=this,w={},v=w.a=x.d.L(0,d),u=v.gaY()>34?w.a=v.cF(0,v.gaY()).W(0,34):v,t=x.a
 t.toString
-t.a2K(u.cF(0,34))
+t.a2L(u.cF(0,34))
 x.M(new D.ayJ(w,x))},
-Wm(){this.a.a2K(B.h)
+Wn(){this.a.a2L(B.h)
 this.M(new D.ayK(this))},
-D(d){var x=this,w=null,v=F.fU(C.dg,2),u=x.d,t=A.bk(w,w,A.jJ(w,A.f0(w,A.c5(B.T,A.b([C.Tu,A.aoi(A.f0(w,C.T0,B.v,w,new A.c1(C.KZ,w,F.fU(C.MP,2),w,w,w,B.dc),w,48,w,w,w,w,48),u)],y.u),B.p,B.an,w),B.v,w,new A.c1(C.Mc,w,v,w,C.a__,w,B.dc),w,112,w,w,w,w,112),B.aC,!1,w,w,w,w,w,w,w,w,w,x.gaow(),new D.ayL(x),new D.ayM(x),w,w,w,w,w,w,w,w,w,w,w),!1,w,w,w,!1,w,w,w,w,w,w,w,w,"Ship helm joystick",w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,B.x,w)
+D(d){var x=this,w=null,v=F.fU(C.dg,2),u=x.d,t=A.bk(w,w,A.jJ(w,A.f0(w,A.c5(B.T,A.b([C.Tu,A.aoi(A.f0(w,C.T0,B.v,w,new A.c1(C.KZ,w,F.fU(C.MP,2),w,w,w,B.dc),w,48,w,w,w,w,48),u)],y.u),B.p,B.an,w),B.v,w,new A.c1(C.Mc,w,v,w,C.a__,w,B.dc),w,112,w,w,w,w,112),B.aC,!1,w,w,w,w,w,w,w,w,w,x.gaox(),new D.ayL(x),new D.ayM(x),w,w,w,w,w,w,w,w,w,w,w),!1,w,w,w,!1,w,w,w,w,w,w,w,w,"Ship helm joystick",w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,B.x,w)
 return A.aoe(t,"Arrow keys: \u2191 accelerate, \u2193 reverse, \u2190/\u2192 steer",C.Qm)}}
 D.Qv.prototype={
 D(d){var x=this,w=null,v=y.u
 return A.el(new A.aG(B.rI,A.bE(A.b([A.d4(D.Pj(w,A.c_(A.b([A.cD(C.S8,x.c,w,14),G.oG,A.a2(x.d,w,w,w,C.aeA,w,w,w)],v),B.n,w,B.m,B.R,0),x.z,B.a_,w,"Change ammunition (Space)",B.p3),38,168),C.fg,A.d4(A.c_(A.b([x.zj(C.SI,"Port cannon (A)",x.r,!0),x.zj(C.SK,"Forward cannon (W)",x.x,x.e),x.zj(E.tH,"Rear cannon (S)",x.y,x.f),x.zj(C.SJ,"Starboard cannon (D)",x.w,!0)],v),B.n,w,B.hA,B.F,0),38,168)],v),B.n,B.m,B.R),w),w,C.m2,w)},
 zj(d,e,f,g){var x=null,w=A.r7(x,x,x,x,x,x,x,x,x,x,x,C.EL,C.EL,x,x,B.nR,x),v=g?e:"Cannon not installed",u=g?f:x
-return A.aJw(D.Pj(C.Hb,A.cD(d,x,x,20),u,B.a_,w,v,B.p3),36)}}
+return A.aJx(D.Pj(C.Hb,A.cD(d,x,x,20),u,B.a_,w,v,B.p3),36)}}
 D.QX.prototype={
 k(){var x,w=this
 w.a.k()
@@ -246,12 +246,12 @@ D.ayK.prototype={
 $0(){return this.a.d=B.h},
 $S:0}
 D.ayM.prototype={
-$1(d){return this.a.aln(d.d)},
+$1(d){return this.a.alo(d.d)},
 $S:21}
 D.ayL.prototype={
-$1(d){return this.a.Wm()},
+$1(d){return this.a.Wn()},
 $S:33};(function installTearOffs(){var x=a._instance_0u
-x(D.IP.prototype,"gaow","Wm",0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
+x(D.IP.prototype,"gaox","Wn",0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
 x(A.O,[D.MX,D.QX])
 x(A.Y,[D.DE,D.Qv])
 w(D.ot,A.U)
@@ -314,4 +314,4 @@ C.fg=new A.c4(null,4,null,null)
 C.Kj=new A.h(1,0.9098039215686274,0.9294117647058824,0.9607843137254902,B.d)
 C.ad5=new A.v(!0,C.Kj,null,null,null,null,10,B.eL,null,0.15,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 C.aeA=new A.v(!0,null,null,null,null,null,12,B.a0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["dXld0U0OPxQUSOHxW4hLV6fu5ZQ="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["TUin5rzdfhS1y1q0+tZfll8zBJY="]=a.current})($__dart_deferred_initializers__);
