@@ -40,8 +40,50 @@ if (!window._flutter) {
 }
 _flutter.buildConfig = {"engineRevision":"06a2e2a110089dff50fe635cffd2a61e1b24fbcd","wasmHashes":{"chromium/canvaskit.wasm":"ae8ff1d858140f7b1300ced3fa89fb8c9dce0a400a0f4f1e11f6dcfb3315fdcf","webparagraph/canvaskit.wasm":"0ce1b05082efdc8529550e8a01f6ff0593972d55525035010e26f5600aa9f254","skwasm_heavy.wasm":"565f5cc1cca6ab120f11934b105f01fec4b58b480c82e0889dca93af8e6f8635","canvaskit.wasm":"fbed517a43e82452404446683f00f2e876d835aed84410695759e67b6bb01cd3","skwasm.wasm":"e540fd5e8303b7b68ec2718cb49e9c421f8ade3075b15e02a7059a62654df9a1","wimp.wasm":"e924eaafd801d41e017d178f3fd5cf8a417f641fe35c9ed34a4e1d7582283e0c"},"builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"},{}]};
 
+
+const krakenStartupBeganAt = performance.now();
+const krakenStatus = document.getElementById('kraken-loader-status');
+const krakenElapsed = document.getElementById('kraken-loader-elapsed');
+const krakenLoader = document.getElementById('kraken-loader');
+
+function krakenStartupSeconds() {
+  return ((performance.now() - krakenStartupBeganAt) / 1000).toFixed(1);
+}
+
+function krakenLoadingPhase(message) {
+  const seconds = krakenStartupSeconds();
+  if (krakenStatus) krakenStatus.textContent = message;
+  if (krakenElapsed) krakenElapsed.textContent = `${seconds} seconds`;
+  console.info(`[Kraken startup +${seconds}s] ${message}`);
+}
+
+const krakenElapsedTimer = window.setInterval(() => {
+  if (krakenElapsed) {
+    krakenElapsed.textContent = `${krakenStartupSeconds()} seconds`;
+  }
+}, 100);
+
+krakenLoadingPhase('Downloading game code…');
+
 _flutter.loader.load({
   serviceWorkerSettings: {
-    serviceWorkerVersion: "3825782197" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
-  }
+    serviceWorkerVersion: "1722898518" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */,
+  },
+  onEntrypointLoaded: async function(engineInitializer) {
+    krakenLoadingPhase('Starting graphics engine…');
+    const appRunner = await engineInitializer.initializeEngine();
+
+    krakenLoadingPhase('Loading saved game data…');
+    await appRunner.runApp();
+
+    krakenLoadingPhase('Painting first screen…');
+    await new Promise(requestAnimationFrame);
+    await new Promise(requestAnimationFrame);
+
+    window.clearInterval(krakenElapsedTimer);
+    if (krakenLoader) {
+      krakenLoader.classList.add('kraken-loader--done');
+      window.setTimeout(() => krakenLoader.remove(), 240);
+    }
+  },
 });
