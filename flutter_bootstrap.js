@@ -67,7 +67,7 @@ krakenLoadingPhase('Downloading game code…');
 
 _flutter.loader.load({
   serviceWorkerSettings: {
-    serviceWorkerVersion: "2177941040" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */,
+    serviceWorkerVersion: "1254031869" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */,
   },
   onEntrypointLoaded: async function(engineInitializer) {
     krakenLoadingPhase('Starting graphics engine…');
