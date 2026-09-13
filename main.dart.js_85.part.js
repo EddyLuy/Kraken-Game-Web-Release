@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var A={
-GC(d){var y
+GH(d){var y
 switch(d.a){case 0:y="Spices"
 break
 case 1:y="Silk"
@@ -12,4 +12,4 @@ break
 default:y=null}return y}}
 A=a.updateHolder(c[15],A)
 var z=a.updateTypes([])};
-(a=>{a["wPUKiMlUpGx9FJ9kBSv3FDc4go8="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["7RyT4DWKczLOQ1J4lIe+MAL1YG4="]=a.current})($__dart_deferred_initializers__);
