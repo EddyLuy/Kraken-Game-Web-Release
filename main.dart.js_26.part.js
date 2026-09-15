@@ -27,16 +27,16 @@ _.w=h
 _.a=i
 _.b=j
 _.c=k},
-aiR:function aiR(d){this.a=d},
+aiS:function aiS(d){this.a=d},
 aLe(d,e,f,g,h,i,j,k){var x
 if(f.length!==g.length)A.aa(A.cF('"colors" and "colorStops" arguments must have equal length.',null))
 if(j!=null)x=j.k(0,d)&&k===0
 else x=!0
 if(x){$.J()
-x=new A.a6T(d,e,f,g,h,null)
+x=new A.a6U(d,e,f,g,h,null)
 x.H_()
 return x}else{$.J()
-x=new A.a6R(j,k,d,e,f,g,h,null)
+x=new A.a6S(j,k,d,e,f,g,h,null)
 x.H_()
 return x}}},D
 J=c[1]
@@ -50,7 +50,7 @@ s=s==null?null:s.W(e).FV(d)
 return B.aLe(w,x.e*v,x.a,u,x.f,t,s,x.w*d.gem())},
 i7(d){return this.wO(d,null)},
 aB(d){var x=this,w=x.a,v=A.a5(w).i("a9<1,h>")
-w=A.a4(new A.a9(w,new B.aiR(d),v),v.i("ay.E"))
+w=A.a4(new A.a9(w,new B.aiS(d),v),v.i("ay.E"))
 return new B.lv(x.d,x.e,x.f,x.r,x.w,w,x.b,x.c)},
 N3(d){var x=this
 return new B.lv(x.d,x.e,x.f,x.r,x.w,A.bJ(x.a.length,d,!1,y.o),x.b,x.c)},
@@ -74,12 +74,12 @@ if(v!=null)w.push("focal: "+v.l(0))
 w.push("focalRadius: "+A.ia(x.w))
 return"RadialGradient("+C.b.bG(w,", ")+")"}}
 var z=a.updateTypes([])
-B.aiR.prototype={
+B.aiS.prototype={
 $1(d){var x=A.I(null,d,this.a)
 x.toString
 return x},
-$S:64};(function inheritance(){var x=a.inherit
+$S:66};(function inheritance(){var x=a.inherit
 x(B.lv,D.CI)
-x(B.aiR,A.dp)})()
+x(B.aiS,A.dp)})()
 var y={o:A.Q("h"),h:A.Q("l<H>"),a:A.Q("lv?")}};
-(a=>{a["N3yERyMzfl+rbztikZP6Dqx5fx4="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["Y2q3UbdsNQmkKZ8rrmekA91gCaw="]=a.current})($__dart_deferred_initializers__);

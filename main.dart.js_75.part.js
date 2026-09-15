@@ -1,5 +1,5 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,D,K,L,M,C={BH:function BH(d){this.a=d},aay:function aay(){},aaA:function aaA(){},
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,D,K,L,M,C={BH:function BH(d){this.a=d},aaz:function aaz(){},aaB:function aaB(){},
 baM(d){var w
 switch(d.a){case 0:w=A.B7
 break
@@ -8,22 +8,22 @@ break
 case 2:w=A.a6B
 break
 default:w=null}return w},
-ahs(){var w=0,v=B.q(x.l),u,t,s,r
-var $async$ahs=B.r(function(d,e){if(d===1)return B.n(e,v)
+aht(){var w=0,v=B.q(x.l),u,t,s,r
+var $async$aht=B.r(function(d,e){if(d===1)return B.n(e,v)
 for(;;)switch(w){case 0:s=B.b([C.t6("assets/sprites/necromancer_sanctum_background.png"),C.t6("assets/sprites/necromancer_sanctum_background_bright.png")],x.F)
 r=x.z
 D.b.P(s,new B.a9(A.Y4,C.aNM(),r))
 D.b.P(s,new B.a9(A.a1L,C.aNM(),r))
 D.b.P(s,new B.a9(A.a1M,C.aNM(),r))
 w=3
-return B.j(B.bH(s,x.i),$async$ahs)
+return B.j(B.bH(s,x.i),$async$aht)
 case 3:t=e
 s=J.d3(t)
-u=new C.Ra(s.ga7(t),s.h(t,1),s.fR(t,2).tZ(0,6).eJ(0),s.fR(t,8).tZ(0,4).eJ(0),s.fR(t,12).eJ(0))
+u=new C.Rb(s.ga7(t),s.h(t,1),s.fR(t,2).tZ(0,6).eJ(0),s.fR(t,8).tZ(0,4).eJ(0),s.fR(t,12).eJ(0))
 w=1
 break
 case 1:return B.o(u,v)}})
-return B.p($async$ahs,v)},
+return B.p($async$aht,v)},
 t6(d){return C.b2A(d)},
 b2A(d){var w=0,v=B.q(x.i),u,t,s,r,q,p
 var $async$t6=B.r(function(e,f){if(e===1)return B.n(f,v)
@@ -46,14 +46,14 @@ case 1:return B.o(u,v)}})
 return B.p($async$t6,v)},
 E2:function E2(d,e){this.a=d
 this.b=e},
-Ra:function Ra(d,e,f,g,h){var _=this
+Rb:function Rb(d,e,f,g,h){var _=this
 _.a=d
 _.b=e
 _.c=f
 _.d=g
 _.e=h},
 b9b(d,e,f){return new C.E7(d,e,f,null)},
-baP(d,e,f,g,h){return B.ca(d,!1).iX(B.agp(new C.aJy(h,e,g,f),null,x.v))},
+baP(d,e,f,g,h){return B.ca(d,!1).iX(B.agq(new C.aJy(h,e,g,f),null,x.v))},
 aJy:function aJy(d,e,f,g){var _=this
 _.a=d
 _.b=e
@@ -70,31 +70,31 @@ _.e=f
 _.f=g
 _.r=h
 _.a=i},
-Zu:function Zu(){var _=this
+Zv:function Zv(){var _=this
 _.d=$
 _.c=_.a=_.e=null},
-azY:function azY(d,e){this.a=d
+azZ:function azZ(d,e){this.a=d
 this.b=e},
-azZ:function azZ(d){this.a=d},
 aA_:function aA_(d){this.a=d},
-ahr:function ahr(d){this.a=d},
+aA0:function aA0(d){this.a=d},
+ahs:function ahs(d){this.a=d},
 E7:function E7(d,e,f,g){var _=this
 _.c=d
 _.d=e
 _.e=f
 _.a=g},
-ZD:function ZD(d){var _=this
+ZE:function ZE(d){var _=this
 _.d=d
 _.e=0
 _.c=_.a=_.x=_.w=_.r=_.f=null},
-aA4:function aA4(d,e){this.a=d
+aA5:function aA5(d,e){this.a=d
 this.b=e},
-aA6:function aA6(d){this.a=d},
 aA7:function aA7(d){this.a=d},
-aA5:function aA5(d){this.a=d},
-ahC:function ahC(d,e){this.a=d
+aA8:function aA8(d){this.a=d},
+aA6:function aA6(d){this.a=d},
+ahD:function ahD(d,e){this.a=d
 this.b=e},
-a6I:function a6I(d,e){this.a=d
+a6J:function a6J(d,e){this.a=d
 this.b=e}},A,E,F,I,H,G
 J=c[1]
 B=c[0]
@@ -111,8 +111,8 @@ H=c[14]
 G=c[48]
 C.BH.prototype={
 aE0(){return this.a=!1}}
-C.aay.prototype={}
-C.aaA.prototype={
+C.aaz.prototype={}
+C.aaB.prototype={
 Ro(d){var w,v,u,t,s,r
 for(w=0;w<5;){v=A.k0[w];++w
 u=A.k0[w]
@@ -125,7 +125,7 @@ return t<s?t:s}r=v.b
 return r+(u.b-r)*((d-t)/(s-t))}return null}}
 C.E2.prototype={
 G(){return"NecromancerVisualState."+this.b}}
-C.Ra.prototype={
+C.Rb.prototype={
 ayW(d){var w
 switch(d.a){case 0:w=this.c
 break
@@ -141,34 +141,34 @@ for(w=t.c,v=w.length,u=0;u<w.length;w.length===v||(0,B.y)(w),++u)w[u].j()
 for(w=t.d,v=w.length,u=0;u<w.length;w.length===v||(0,B.y)(w),++u)w[u].j()
 for(w=t.e,v=w.length,u=0;u<w.length;w.length===v||(0,B.y)(w),++u)w[u].j()}}
 C.t5.prototype={
-aa(){return new C.Zu()},
+aa(){return new C.Zv()},
 aCe(d){return this.e.$1(d)},
 aCg(d){return this.r.$1(d)}}
-C.Zu.prototype={
+C.Zv.prototype={
 gTf(){var w=this.d
 return w===$?this.d=new C.BH(this.a.f):w},
 ao(){this.aD()
-this.AF()},
-AF(){var w=0,v=B.q(x.v),u,t=this,s
-var $async$AF=B.r(function(d,e){if(d===1)return B.n(e,v)
+this.AE()},
+AE(){var w=0,v=B.q(x.v),u,t=this,s
+var $async$AE=B.r(function(d,e){if(d===1)return B.n(e,v)
 for(;;)switch(w){case 0:w=3
-return B.j(C.ahs(),$async$AF)
+return B.j(C.aht(),$async$AE)
 case 3:s=e
 if(t.c==null){s.j()
 w=1
-break}t.I(new C.azY(t,s))
+break}t.I(new C.azZ(t,s))
 case 1:return B.o(u,v)}})
-return B.p($async$AF,v)},
+return B.p($async$AE,v)},
 j(){var w=this.e
 if(w!=null)w.j()
-this.au()},
+this.ar()},
 D(d){var w,v,u,t=this,s=t.e,r=t.a,q=r.d
 r=r.c
 w=r.gMP()
 v=r.go
 u=r.id
-return E.aKZ("Ocean Cemetery",u!=null,v!=null,r.fy,D.fg,"Return to Ocean",new C.ahr(s),!1,null,A.Uf,3,new C.azZ(t),q,new C.aA_(t),w,!1)}}
-C.ahr.prototype={
+return E.aKZ("Ocean Cemetery",u!=null,v!=null,r.fy,D.fg,"Return to Ocean",new C.ahs(s),!1,null,A.Uf,3,new C.aA_(t),q,new C.aA0(t),w,!1)}}
+C.ahs.prototype={
 EP(d,e,f){var w,v,u=this.a
 if(u==null){$.J()
 w=B.K()
@@ -200,23 +200,23 @@ p=B.K()
 p.Q=D.o
 d.bK(t,new B.i(0,0,w,s),new B.i(q,100,q+r,640),p)}}
 C.E7.prototype={
-aa(){return new C.ZD(new C.BH(!0))},
+aa(){return new C.ZE(new C.BH(!0))},
 aCA(d){return this.d.$1(d)}}
-C.ZD.prototype={
+C.ZE.prototype={
 ao(){this.aD()
-this.An()},
-An(){var w=0,v=B.q(x.v),u,t=this,s,r
-var $async$An=B.r(function(d,e){if(d===1)return B.n(e,v)
+this.Am()},
+Am(){var w=0,v=B.q(x.v),u,t=this,s,r
+var $async$Am=B.r(function(d,e){if(d===1)return B.n(e,v)
 for(;;)switch(w){case 0:w=3
-return B.j(B.bH(B.b([t.lW("assets/sprites/ocean_cemetery_approach.png"),t.lW("assets/sprites/ocean_cemetery_approach_bright.png"),t.lW("assets/sprites/ocean_cemetery_mountain.png"),t.lW("assets/sprites/ocean_cemetery_mountain_bright.png")],x.F),x.i),$async$An)
+return B.j(B.bH(B.b([t.lW("assets/sprites/ocean_cemetery_approach.png"),t.lW("assets/sprites/ocean_cemetery_approach_bright.png"),t.lW("assets/sprites/ocean_cemetery_mountain.png"),t.lW("assets/sprites/ocean_cemetery_mountain_bright.png")],x.F),x.i),$async$Am)
 case 3:r=e
 if(t.c==null){for(s=J.ba(r);s.u();)s.gO().j()
 w=1
-break}t.I(new C.aA4(t,r))
+break}t.I(new C.aA5(t,r))
 case 1:return B.o(u,v)}})
-return B.p($async$An,v)},
-lW(d){return this.alG(d)},
-alG(d){var w=0,v=B.q(x.i),u,t,s,r,q,p
+return B.p($async$Am,v)},
+lW(d){return this.alE(d)},
+alE(d){var w=0,v=B.q(x.i),u,t,s,r,q,p
 var $async$lW=B.r(function(e,f){if(e===1)return B.n(f,v)
 for(;;)switch(w){case 0:r=I
 q=J
@@ -243,14 +243,14 @@ v=w.w
 if(v!=null)v.j()
 v=w.x
 if(v!=null)v.j()
-w.au()},
-D(d){var w,v,u,t=this,s=t.e,r=s===1,q=r?A.Ue:A.Ud,p=r?new C.a6I(t.w,t.x):new C.ahC(t.f,t.r),o=t.a,n=o.c,m=r?new C.aA6(t):new C.aA7(t),l=r?"Confront the Necromancer":"Climb the Mountain",k=r?F.uq:A.Vk
+w.ar()},
+D(d){var w,v,u,t=this,s=t.e,r=s===1,q=r?A.Ue:A.Ud,p=r?new C.a6J(t.w,t.x):new C.ahD(t.f,t.r),o=t.a,n=o.c,m=r?new C.aA7(t):new C.aA8(t),l=r?"Confront the Necromancer":"Climb the Mountain",k=r?F.uq:A.Vk
 o=o.e
 w=o.gMP()
 v=o.go
 u=o.id
 return E.aKZ("Ocean Cemetery",u!=null,v!=null,o.fy,k,l,p,!1,new B.bF(s,x.o),q,s+1,m,n,t.d.gaE_(),w,!1)}}
-C.ahC.prototype={
+C.ahD.prototype={
 EP(d,e,f){var w
 $.J()
 w=B.K()
@@ -267,7 +267,7 @@ w=B.K()
 w.Q=D.o
 w.r=D.i.bf(g).gm()
 d.bK(f,new B.i(0,0,f.c,f.d),new B.i(0,0,0+v.a,0+v.b),w)}}
-C.a6I.prototype={
+C.a6J.prototype={
 EP(d,e,f){var w
 $.J()
 w=B.K()
@@ -309,50 +309,50 @@ break}B.ca(s,!1).cr()
 t.c.$1(d)
 case 1:return B.o(u,v)}})
 return B.p($async$$1,v)},
-$S:50}
-C.azY.prototype={
+$S:49}
+C.azZ.prototype={
 $0(){return this.a.e=this.b},
 $S:0}
-C.azZ.prototype={
+C.aA_.prototype={
 $0(){var w=this.a,v=w.a
 v.toString
 return v.aCe(w.gTf().a)},
 $S:0}
-C.aA_.prototype={
+C.aA0.prototype={
 $0(){var w=this.a
 w.gTf().a=!1
 w.a.aCg(!1)},
 $S:0}
-C.aA4.prototype={
+C.aA5.prototype={
 $0(){var w=this.a,v=this.b,u=J.d3(v)
 w.f=u.ga7(v)
 w.r=u.h(v,1)
 w.w=u.h(v,2)
 w.x=u.h(v,3)},
 $S:0}
-C.aA6.prototype={
+C.aA7.prototype={
 $0(){var w=this.a
 return w.a.aCA(w.d.a)},
 $S:0}
-C.aA7.prototype={
+C.aA8.prototype={
 $0(){var w=this.a
-return w.I(new C.aA5(w))},
+return w.I(new C.aA6(w))},
 $S:0}
-C.aA5.prototype={
+C.aA6.prototype={
 $0(){return this.a.e=1},
 $S:0};(function installTearOffs(){var w=a._instance_0u,v=a._static_1
 w(C.BH.prototype,"gaE_","aE0",0)
 v(C,"aNM","t6",2)})();(function inheritance(){var w=a.inheritMany,v=a.inherit
-w(B.R,[C.BH,C.aay,C.aaA,C.Ra])
+w(B.R,[C.BH,C.aaz,C.aaB,C.Rb])
 v(C.E2,B.hs)
 w(B.dp,[C.aJy,C.aJx])
-w(B.eJ,[C.aJw,C.azY,C.azZ,C.aA_,C.aA4,C.aA6,C.aA7,C.aA5])
+w(B.eJ,[C.aJw,C.azZ,C.aA_,C.aA0,C.aA5,C.aA7,C.aA8,C.aA6])
 w(B.W,[C.t5,C.E7])
-w(B.Z,[C.Zu,C.ZD])
-w(E.Pg,[C.ahr,C.ahC,C.a6I])})()
-B.eE(b.typeUniverse,JSON.parse('{"t5":{"W":[],"f":[]},"Zu":{"Z":["t5"]},"E7":{"W":[],"f":[]},"ZD":{"Z":["E7"]}}'))
+w(B.Z,[C.Zv,C.ZE])
+w(E.Ph,[C.ahs,C.ahD,C.a6J])})()
+B.eE(b.typeUniverse,JSON.parse('{"t5":{"W":[],"f":[]},"Zv":{"Z":["t5"]},"E7":{"W":[],"f":[]},"ZE":{"Z":["E7"]}}'))
 var y={m:"The Necromancer is defeated. The green fire gutters as the dead finally return to rest.",f:"assets/sprites/necromancer_conjuring_frames/necromancer_eddy (1).png",a:"assets/sprites/necromancer_conjuring_frames/necromancer_eddy (2).png"}
-var x={i:B.Q("cQ"),E:B.Q("l<d5>"),F:B.Q("l<a7<cQ>>"),j:B.Q("l<i>"),x:B.Q("l<H>"),z:B.Q("a9<H,a7<cQ>>"),l:B.Q("Ra"),o:B.Q("bF<z>"),v:B.Q("~")};(function constants(){var w=a.makeConstList
+var x={i:B.Q("cQ"),E:B.Q("l<d5>"),F:B.Q("l<a7<cQ>>"),j:B.Q("l<i>"),x:B.Q("l<H>"),z:B.Q("a9<H,a7<cQ>>"),l:B.Q("Rb"),o:B.Q("bF<z>"),v:B.Q("~")};(function constants(){var w=a.makeConstList
 A.Ot=new B.h(1,0.20784313725490197,1,0.5490196078431373,D.c)
 A.alf=new B.w(2850,768)
 A.a7I=new B.c(145,327)
@@ -436,7 +436,7 @@ A.aao=new B.c(835,575)
 A.aaD=new B.c(960,620)
 A.a7C=new B.c(1365,620)
 A.k0=w([A.a7_,A.a9u,A.a9P,A.aao,A.aaD,A.a7C],B.Q("l<c>"))
-A.JX=new C.aaA()
+A.JX=new C.aaB()
 A.a17=w([],x.E)
 A.aiC=new B.i(-1000,-1000,-999,-999)
 A.axU=new B.h(1,0.00784313725490196,0.00392156862745098,0.023529411764705882,D.c)
@@ -476,7 +476,7 @@ A.a7o=new B.c(1160,644)
 A.TY=new E.d5(A.a7o,F.bs,75,1290)
 A.XZ=w([A.TV,A.TZ,A.U8,A.TY,A.nD,A.nC],x.E)
 A.a_y=w([A.ZU,A.ZG,A.XZ],B.Q("l<a1<d5>>"))
-A.JW=new C.aay()
+A.JW=new C.aaz()
 A.Uf=new E.wi("Necromancer Sanctum","Undead Pirates","The Deathless Throne Falls",y.m,y.m,L.pn,A.a7n,A.a_z,A.a_8,A.JX,A.a17,A.aiC,null,A.Ug,82,A.TP,F.nG,null,null,A.JW)
 A.Vk=new B.an(58952,"MaterialIcons",!1)
 A.Y4=w(["assets/sprites/necromancer_conjuring_frames/necromancer_eddy.png",y.f,y.a,"assets/sprites/necromancer_conjuring_frames/necromancer_eddy (3).png",y.a,y.f],x.x)
@@ -489,4 +489,4 @@ A.a1M=w(["assets/sprites/necromancer_phase_3_frames/phase_3_01.png","assets/spri
 A.B7=new C.E2(0,"summoning")
 A.a6A=new C.E2(1,"idleProtected")
 A.a6B=new C.E2(2,"vulnerable")})()};
-(a=>{a["1xd7HSj9x3JpLp7Zxp4HAAj2FAM="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["KFGofAM8B6jXZvtQ0fqJJh/CDus="]=a.current})($__dart_deferred_initializers__);
