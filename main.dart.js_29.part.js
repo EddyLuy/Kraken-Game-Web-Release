@@ -1,13 +1,9 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A,C,B
-A=c[0]
-C=c[2]
-B=c[49]
-var z=a.updateTypes([]);(function constants(){B.lY=new A.h(1,0,0.6745098039215687,0.7568627450980392,C.c)
-B.j4=new A.h(1,1,0.7019607843137254,0,C.c)
-B.rL=new A.h(1,0.8313725490196079,0.6274509803921569,0.09019607843137255,C.c)
-B.rO=new A.h(1,1,0.30196078431372547,0,C.c)
-B.rU=new A.h(1,0.9176470588235294,0.9647058823529412,1,C.c)
-B.dz=new A.aj(24,24,24,24)
-B.uA=new A.an(984367,"MaterialIcons",!1)})()};
-(a=>{a["iwvOo4uKEfFqk7b18jBFLoaYdbY="]=a.current})($__dart_deferred_initializers__);
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
+b3F(d,e,f){return f},
+hM(d,e,f,g,h,i){var y=null
+return new B.wz(A.b3F(y,y,new B.mb(d,y,y)),i,g,e,f,h)}}
+B=c[0]
+A=a.updateHolder(c[31],A)
+var z=a.updateTypes([])};
+(a=>{a["5NxbHOR/u4rdaghAXRh1rUn+ZJY="]=a.current})($__dart_deferred_initializers__);
