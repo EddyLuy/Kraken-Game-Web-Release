@@ -3,15 +3,15 @@ $__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,E,I,K,G,H,D={m
 _.a=d
 _.b=e
 _.c=f
-_.e=g},aia:function aia(){},G6:function G6(d,e,f){this.c=d
+_.e=g},aib:function aib(){},G8:function G8(d,e,f){this.c=d
 this.d=e
-this.a=f},KV:function KV(d){var _=this
+this.a=f},KX:function KX(d){var _=this
 _.d=0
 _.e=d
-_.c=_.a=null},aFE:function aFE(d,e){this.a=d
-this.b=e},aFI:function aFI(d){this.a=d},aFH:function aFH(d){this.a=d},aFJ:function aFJ(d){this.a=d},aFK:function aFK(d){this.a=d},aFG:function aFG(d){this.a=d},aFL:function aFL(d){this.a=d},aFM:function aFM(d){this.a=d},aFF:function aFF(d){this.a=d},anN:function anN(d,e){this.a=d
+_.c=_.a=null},aFI:function aFI(d,e){this.a=d
+this.b=e},aFM:function aFM(d){this.a=d},aFL:function aFL(d){this.a=d},aFN:function aFN(d){this.a=d},aFO:function aFO(d){this.a=d},aFK:function aFK(d){this.a=d},aFP:function aFP(d){this.a=d},aFQ:function aFQ(d){this.a=d},aFJ:function aFJ(d){this.a=d},anO:function anO(d,e){this.a=d
 this.b=e},
-b9B(d,e){return new D.G6(e,d,null)}},A,F,C,L
+b9F(d,e){return new D.G8(e,d,null)}},A,F,C,L
 J=c[1]
 B=c[0]
 E=c[2]
@@ -25,32 +25,32 @@ F=c[19]
 C=c[79]
 L=c[28]
 D.mT.prototype={}
-D.aia.prototype={}
-D.G6.prototype={
-a9(){return new D.KV(B.bJ(1,null,!1,x.H))}}
-D.KV.prototype={
+D.aib.prototype={}
+D.G8.prototype={
+a9(){return new D.KX(B.bJ(1,null,!1,x.H))}}
+D.KX.prototype={
 ao(){this.aD()
 this.Af()},
 Af(){var w=0,v=B.q(x.n),u,t=this,s,r
 var $async$Af=B.r(function(d,e){if(d===1)return B.n(e,v)
 for(;;)switch(w){case 0:w=3
-return B.j(B.bH(new B.a9(A.a0L,t.galx(),x.x),x.I),$async$Af)
+return B.j(B.bH(new B.a9(A.a0L,t.galy(),x.x),x.I),$async$Af)
 case 3:r=e
 if(t.c==null){for(s=J.ba(r);s.u();)s.gO().j()
 w=1
-break}t.I(new D.aFE(t,r))
+break}t.I(new D.aFI(t,r))
 case 1:return B.o(u,v)}})
 return B.p($async$Af,v)},
-rj(d){return this.alB(d)},
-alB(d){var w=0,v=B.q(x.I),u,t,s,r,q,p
+rj(d){return this.alC(d)},
+alC(d){var w=0,v=B.q(x.I),u,t,s,r,q,p
 var $async$rj=B.r(function(e,f){if(e===1)return B.n(f,v)
 for(;;)switch(w){case 0:r=L
 q=J
 p=E.Y
 w=4
-return B.j($.dT().d1(d),$async$rj)
+return B.j($.dU().d1(d),$async$rj)
 case 4:w=3
-return B.j(r.f8(q.fu(p.gbb(f))),$async$rj)
+return B.j(r.f8(q.fv(p.gbb(f))),$async$rj)
 case 3:t=f
 w=5
 return B.j(t.cJ(),$async$rj)
@@ -67,17 +67,17 @@ if(t!=null)t.j()}this.ar()},
 D(d){var w,v,u,t,s=this,r=null,q="Siren Island",p=s.d
 if(p===0){p=s.a
 w=p.d
-return F.Er(q,p.c.fy,A.acE,!1,A.av9,1,new D.aFI(s),w,r,r,new D.aFJ(s),!1,!0,!1)}if(p===1){p=s.a
+return F.Et(q,p.c.fy,A.acE,!1,A.av9,1,new D.aFM(s),w,r,r,new D.aFN(s),!1,!0,!1)}if(p===1){p=s.a
 w=p.d
-return F.Er(q,p.c.fy,A.acy,!1,A.av6,2,new D.aFK(s),w,r,r,new D.aFL(s),!1,!0,!1)}if(p===2){p=s.a
+return F.Et(q,p.c.fy,A.acy,!1,A.av6,2,new D.aFO(s),w,r,r,new D.aFP(s),!1,!0,!1)}if(p===2){p=s.a
 w=p.d
-return F.Er(q,p.c.fy,A.acz,!1,A.av5,3,new D.aFM(s),w,r,r,r,!1,!0,!1)}w=s.e[0]
+return F.Et(q,p.c.fy,A.acz,!1,A.av5,3,new D.aFQ(s),w,r,r,r,!1,!0,!1)}w=s.e[0]
 v=s.a
 u=v.d
 v=v.c
 t=v.gML()
-return G.aLc(q,!0,!0,v.fy,K.eh,"Return to the Open Ocean",new D.anN(w,p),!1,new B.bF(p,x.a),A.Uf,p+1,u,u,r,t,!1)}}
-D.anN.prototype={
+return G.aLg(q,!0,!0,v.fy,K.eh,"Return to the Open Ocean",new D.anO(w,p),!1,new B.bF(p,x.a),A.Uf,p+1,u,u,r,t,!1)}}
+D.anO.prototype={
 EK(d,e,f){var w,v,u,t,s,r=this.a
 if(r==null){w=0+e.a
 v=0+e.b
@@ -105,7 +105,7 @@ q=new B.b9(E.r,E.t,E.C,E.E,E.o)
 q.r=A.NT.bf(0.1).gm()
 q.b=E.G
 q.c=3
-p=q.aH()
+p=q.aI()
 t.drawOval(B.bp(r),p)
 p.delete()}w=e.fy
 if(w||e.go){o=w?0.42:0.18
@@ -116,10 +116,10 @@ r=new B.b9(E.r,E.t,E.C,E.E,E.o)
 r.r=C.hg.bf(o).gm()
 r.b=E.G
 r.c=w?5:2
-p=r.aH()
+p=r.aI()
 t.drawOval(B.bp(u),p)
-p.delete()}}if(l.ok!=null)this.anB(d,e)},
-anB(d,e){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i=null
+p.delete()}}if(l.ok!=null)this.anC(d,e)},
+anC(d,e){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i=null
 for(w=d.a,v=x.v,u=e.fx,t=e.at*2,s=0;s<3;++s){r=565+s*120
 q=(s&1)===0?1:-1
 q=430+8*q*(E.d.aM(t,1)-0.5)
@@ -128,7 +128,7 @@ o=new B.b9(E.r,E.t,E.C,E.E,E.o)
 n=A.vn[s]
 o.r=n.bf(u?0.82:0.48).gm()
 o.z=A.a5Z
-m=o.aH()
+m=o.aI()
 w.drawCircle(r,q,48,m)
 m.delete()
 o=B.b([],v)
@@ -142,13 +142,13 @@ o.push(new B.fK(r,q+72,r+38,k))
 o.push(new B.fK(r+54,n,r,p))
 q=new B.b9(E.r,E.t,E.C,E.E,E.o)
 q.r=A.NZ.gm()
-m=q.aH()
+m=q.aI()
 q=l.ge2().a.snapshot()
 w.drawPath((l.e=new B.fy(q)).a,m)
 m.delete()
 q=A.ZD[s]
 p=A.vn[s]
-j=new B.u1(new B.dO(q,i,i,E.aD,i,i,i,i,i,i,new B.t(!0,p,i,i,i,i,13,E.T,i,1.6,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)),E.at,E.a_,new B.hv(1),i,i,i,i,E.af,i)
+j=new B.u1(new B.dP(q,i,i,E.aD,i,i,i,i,i,i,new B.t(!0,p,i,i,i,i,13,E.T,i,1.6,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i)),E.at,E.a_,new B.hv(1),i,i,i,i,E.af,i)
 j.iR()
 j.aq(d,new B.c(r-j.b.c/2,555))}if(!u){$.J()
 w=B.K()
@@ -157,46 +157,46 @@ w.b=E.G
 w.c=7
 d.ia(A.aib,w)}}}
 var z=a.updateTypes(["a7<cJ>(H)"])
-D.aFE.prototype={
+D.aFI.prototype={
 $0(){var w,v,u,t
 for(w=this.b,v=J.bn(w),u=this.a.e,t=0;t<v.gJ(w);++t)u[t]=v.h(w,t)},
 $S:0}
-D.aFI.prototype={
-$0(){var w=this.a
-return w.I(new D.aFH(w))},
-$S:0}
-D.aFH.prototype={
-$0(){return this.a.d=1},
-$S:0}
-D.aFJ.prototype={
-$0(){return this.a.a.c.pn(E.dJ)},
-$S:11}
-D.aFK.prototype={
-$0(){var w=this.a
-return w.I(new D.aFG(w))},
-$S:0}
-D.aFG.prototype={
-$0(){return this.a.d=2},
-$S:0}
-D.aFL.prototype={
-$0(){return this.a.a.c.pn(E.dJ)},
-$S:11}
 D.aFM.prototype={
 $0(){var w=this.a
-return w.I(new D.aFF(w))},
+return w.I(new D.aFL(w))},
 $S:0}
-D.aFF.prototype={
+D.aFL.prototype={
+$0(){return this.a.d=1},
+$S:0}
+D.aFN.prototype={
+$0(){return this.a.a.c.pn(E.dJ)},
+$S:11}
+D.aFO.prototype={
+$0(){var w=this.a
+return w.I(new D.aFK(w))},
+$S:0}
+D.aFK.prototype={
+$0(){return this.a.d=2},
+$S:0}
+D.aFP.prototype={
+$0(){return this.a.a.c.pn(E.dJ)},
+$S:11}
+D.aFQ.prototype={
+$0(){var w=this.a
+return w.I(new D.aFJ(w))},
+$S:0}
+D.aFJ.prototype={
 $0(){return this.a.d=3},
 $S:0};(function installTearOffs(){var w=a._instance_1u
-w(D.KV.prototype,"galx","rj",0)})();(function inheritance(){var w=a.inheritMany,v=a.inherit
-w(B.R,[D.mT,D.aia])
-v(D.G6,B.W)
-v(D.KV,B.Z)
-w(B.eJ,[D.aFE,D.aFI,D.aFH,D.aFJ,D.aFK,D.aFG,D.aFL,D.aFM,D.aFF])
-v(D.anN,G.Pp)})()
-B.eE(b.typeUniverse,JSON.parse('{"G6":{"W":[],"f":[]},"KV":{"Z":["G6"]}}'))
+w(D.KX.prototype,"galy","rj",0)})();(function inheritance(){var w=a.inheritMany,v=a.inherit
+w(B.S,[D.mT,D.aib])
+v(D.G8,B.W)
+v(D.KX,B.Z)
+w(B.eJ,[D.aFI,D.aFM,D.aFL,D.aFN,D.aFO,D.aFK,D.aFP,D.aFQ,D.aFJ])
+v(D.anO,G.Pr)})()
+B.eE(b.typeUniverse,JSON.parse('{"G8":{"W":[],"f":[]},"KX":{"Z":["G8"]}}'))
 var y={o:"The ship clears the shifting reef. Behind you, Treasure Island finally shows its true face.",p:"assets/perspective/singing_jungle_ultrawide.webp",f:"assets/perspective/treasure_beach_chest.png",j:"assets/perspective/treasure_beach_forest_ultrawide.png",g:"assets/perspective/treasure_beach_rocks.png"}
-var x=(function rtii(){var w=B.Q
+var x=(function rtii(){var w=B.R
 return{r:w("bO<hm,H>"),I:w("cJ"),W:w("l<h>"),g:w("l<c>"),v:w("l<c4>"),V:w("l<aM>"),T:w("l<i>"),s:w("l<H>"),x:w("a9<H,a7<cJ>>"),O:w("bF<H>"),a:w("bF<z>"),H:w("cJ?"),n:w("~")}})();(function constants(){var w=a.makeConstList
 A.NT=new B.h(1,0.7137254901960784,0.42745098039215684,0.8588235294117647,E.c)
 A.NZ=new B.h(0.9098039215686274,0.047058823529411764,0.06274509803921569,0.12549019607843137,E.c)
@@ -212,7 +212,7 @@ A.a7T=new B.c(1550,555)
 A.TV=new G.d5(A.a7T,H.dE,-1/0,1/0)
 A.a8o=new B.c(2200,555)
 A.U4=new G.d5(A.a8o,H.dE,-1/0,1/0)
-A.a_p=w([A.U2,A.TV,A.U4],B.Q("l<d5>"))
+A.a_p=w([A.U2,A.TV,A.U4],B.R("l<d5>"))
 A.aiI=new B.i(-100,-100,-99,-99)
 A.ahH=new B.i(2760,430,2880,620)
 A.P_=new B.h(1,0.027450980392156862,0.10196078431372549,0.17254901960784313,E.c)
@@ -223,7 +223,7 @@ A.NY=new B.h(1,0.19215686274509805,0.3568627450980392,0.2980392156862745,E.c)
 A.P5=new B.h(1,0.06274509803921569,0.14901960784313725,0.12156862745098039,E.c)
 A.Ni=new B.h(1,0.9333333333333333,0.5490196078431373,1,E.c)
 A.Ul=new G.wl(C.hg,A.OJ,A.NY,A.P5,A.Ni)
-A.TR=new G.Cp(560,650,800,0.2)
+A.TR=new G.Cr(560,650,800,0.2)
 A.Uf=new G.wk("Reef Escape","Last Echo","Beyond the Song",y.o,y.o,A.aln,A.a7i,A.a_7,E.fj,null,A.a_p,A.aiI,A.ahH,A.Ul,125,A.TR,H.nG,null,null,null)
 A.NI=new B.h(1,0.33725490196078434,0.23529411764705882,0.39215686274509803,E.c)
 A.Z6=w([A.P_,A.NI],x.W)
@@ -239,12 +239,12 @@ A.a9l=new B.c(355,500)
 A.acl=new D.mT("Veil",C.Bw,A.a9l,A.rf)
 A.a7d=new B.c(1040,525)
 A.ack=new D.mT("Wailer",C.Bx,A.a7d,H.mA)
-A.a2N=w([A.acm,A.acl,A.ack],B.Q("l<mT>"))
-A.a5Z=new B.fg(E.K,10)
+A.a2N=w([A.acm,A.acl,A.ack],B.R("l<mT>"))
+A.a5Z=new B.fh(E.K,10)
 A.a7j=new B.c(110,806)
 A.aly=new B.w(92,70)
 A.a5w=new B.bO([C.ai,y.g,C.bw,y.f],x.r)
-A.ou=new B.bO([C.ft,"assets/perspective/siren_rock_crab.png"],B.Q("bO<p0,H>"))
+A.ou=new B.bO([C.ft,"assets/perspective/siren_rock_crab.png"],B.R("bO<p0,H>"))
 A.ahV=new B.i(3040,180,3260,310)
 A.aah=new B.c(70,140)
 A.a9h=new B.c(3530,140)
@@ -390,7 +390,7 @@ A.a7E=new B.c(1330,748)
 A.a9m=new B.c(35,748)
 A.a00=w([A.aaA,A.a7A,A.a7E,A.a9m],x.g)
 A.a19=w([],x.V)
-A.Ku=new D.aia()
+A.Ku=new D.aib()
 A.acz=new F.k8("Break the Chorus","assets/Enemies/siren_sisters_1.webp",1365,0,768,A.aab,768,1.7777777777777777,!1,!0,!1,null,null,null,null,null,C.eD,125,C.ej,C.ow,A.ou,null,0,"For once, the treasure remains solid in your hands.",null,C.hH,C.ek,A.a00,C.ch,E.fj,A.a19,C.fi,A.Ku)
 A.aa_=new B.c(560,650)
 A.aa6=new B.c(650,0)
@@ -479,4 +479,4 @@ A.aib=new B.i(450,250,915,615)
 A.av5=new B.bF("siren-sisters-perspective",x.O)
 A.av6=new B.bF("singing-jungle-perspective",x.O)
 A.av9=new B.bF("treasure-beach-perspective",x.O)})()};
-(a=>{a["DC66ogFnKUFU1Qo/U73PU/9ONXc="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["m2ajIQeyh1ZalpGQv8NSJtq/k7w="]=a.current})($__dart_deferred_initializers__);

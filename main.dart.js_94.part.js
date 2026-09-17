@@ -1,16 +1,16 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,F,H,I,G,K,E,D,C={Ew:function Ew(d){var _=this
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,F,H,I,G,K,E,D,C={Ey:function Ey(d){var _=this
 _.a="landing_beach"
 _.c=!1
 _.d=""
 _.M$=0
-_.Y$=d
-_.aj$=_.ag$=0},Ex:function Ex(d,e,f){this.c=d
+_.W$=d
+_.aj$=_.ae$=0},Ez:function Ez(d,e,f){this.c=d
 this.d=e
-this.a=f},JK:function JK(){this.d=$
-this.c=this.a=null},aC3:function aC3(d){this.a=d},aC2:function aC2(d,e){this.a=d
-this.b=e},aC1:function aC1(d){this.a=d},aC4:function aC4(d){this.a=d},
-b35(d){var w
+this.a=f},JM:function JM(){this.d=$
+this.c=this.a=null},aC4:function aC4(d){this.a=d},aC3:function aC3(d,e){this.a=d
+this.b=e},aC2:function aC2(d){this.a=d},aC5:function aC5(d){this.a=d},
+b39(d){var w
 switch(d.a){case 0:w="Destroyed Cove"
 break
 case 1:w="Salvage Underway"
@@ -22,7 +22,7 @@ break
 case 4:w="Pirate Haven"
 break
 default:w=null}return w},
-aS1(d){var w
+aS5(d){var w
 switch(d.a){case 0:w=0
 break
 case 1:w=20
@@ -34,7 +34,7 @@ break
 case 4:w=100
 break
 default:w=null}return w},
-b33(d){var w
+b37(d){var w
 switch(d.a){case 0:w="The old Cove remains shattered. Before rebuilding can begin, its wreckage must be surveyed and cleared."
 break
 case 1:w="Usable timber and stone are being recovered from the ruins."
@@ -46,7 +46,7 @@ break
 case 4:w="Pirate's Cove has been restored as a fortified free harbor."
 break
 default:w=null}return w},
-b34(d){var w
+b38(d){var w
 switch(d.a){case 0:w=A.a_1
 break
 case 1:w=A.a2a
@@ -58,14 +58,14 @@ break
 case 4:w=A.a0b
 break
 default:w=null}return w},
-aiD:function aiD(d,e){this.a=d
+aiE:function aiE(d,e){this.a=d
 this.b=e},
 xf:function xf(d,e,f,g){var _=this
 _.c=d
 _.d=e
 _.e=f
 _.a=g},
-QD:function QD(d,e,f){this.c=d
+QF:function QF(d,e,f){this.c=d
 this.d=e
 this.a=f},
 ls:function ls(d,e,f,g){var _=this
@@ -74,12 +74,12 @@ _.b=e
 _.c=f
 _.d=g},
 tf:function tf(){},
-RP:function RP(d,e,f){this.c=d
+RR:function RR(d,e,f){this.c=d
 this.d=e
 this.a=f},
-b9y(d,e){return new C.RP(!1,d,null)},
-b9u(d,e){return new C.QD(!1,d,null)},
-b9z(d,e){return new C.Ex(!1,d,null)}},A
+b9C(d,e){return new C.RR(!1,d,null)},
+b9y(d,e){return new C.QF(!1,d,null)},
+b9D(d,e){return new C.Ez(!1,d,null)}},A
 B=c[0]
 F=c[2]
 H=c[24]
@@ -90,9 +90,9 @@ E=c[19]
 D=c[79]
 C=a.updateHolder(c[8],C)
 A=c[78]
-C.Ew.prototype={
-Di(d){return this.ay5(d)},
-ay5(d){var w=0,v=B.q(x.v),u,t=this
+C.Ey.prototype={
+Di(d){return this.ay6(d)},
+ay6(d){var w=0,v=B.q(x.v),u,t=this
 var $async$Di=B.r(function(e,f){if(e===1)return B.n(f,v)
 for(;;)switch(w){case 0:if(t.c||!A.AP.aw(d.b)){w=1
 break}t.c=!0
@@ -105,81 +105,81 @@ t.c=!1
 t.X()
 case 1:return B.o(u,v)}})
 return B.p($async$Di,v)}}
-C.Ex.prototype={
-a9(){return new C.JK()}}
-C.JK.prototype={
+C.Ez.prototype={
+a9(){return new C.JM()}}
+C.JM.prototype={
 ao(){this.aD()
-var w=$.aA()
-this.d!==$&&B.aI()
-this.d=new C.Ew(w)},
+var w=$.ax()
+this.d!==$&&B.aH()
+this.d=new C.Ey(w)},
 j(){var w=this.d
 w===$&&B.a()
-w.Y$=$.aA()
+w.W$=$.ax()
 w.M$=0
 this.ar()},
-A4(d){return this.aia(d)},
-aia(d){var w=0,v=B.q(x.v),u=this,t
+A4(d){return this.aib(d)},
+aib(d){var w=0,v=B.q(x.v),u=this,t
 var $async$A4=B.r(function(e,f){if(e===1)return B.n(f,v)
 for(;;)switch(w){case 0:u.d===$&&B.a()
 t=u.c
 t.toString
 w=2
-return B.j(B.id(!0,new C.aC3(A.aet),t,x.v),$async$A4)
+return B.j(B.id(!0,new C.aC4(A.aet),t,x.v),$async$A4)
 case 2:return B.o(null,v)}})
 return B.p($async$A4,v)},
 D(d){var w=this.d
 w===$&&B.a()
-return B.ed(w,new C.aC4(this),null)}}
-C.aiD.prototype={
+return B.dC(w,new C.aC5(this),null)}}
+C.aiE.prototype={
 G(){return"PiratesCoveRepairStage."+this.b}}
 C.xf.prototype={
-D(d){var w,v,u=null,t=this.c,s=B.V(C.b35(t),u,u,u,A.aod,u,u,u),r=C.aS1(t),q=x.m
-r=B.b([s,F.bV,K.DA(A.Q2,B.dh(8),A.t6,12,r/100),F.df,B.V(""+C.aS1(t)+"% restored",u,u,u,I.l6,F.cS,u,u),F.cB,B.V(C.b33(t),u,u,u,A.anF,u,u,u),F.de],q)
-for(t=C.b34(t),w=0;w<4;++w){v=t[w]
-r.push(B.dH(!1,F.a2,!0,u,!0,u,u,u,!0,u,A.Wj,u,u,u,u,u,!1,u,u,u,u,u,u,B.V(v.a,u,u,u,F.eH,u,u,u),B.V(v.b,u,u,u,A.arq,u,u,u),u))}t=B.kf(B.bo(r,F.aN,F.m,F.L),u,F.ag)
+D(d){var w,v,u=null,t=this.c,s=B.V(C.b39(t),u,u,u,A.aod,u,u,u),r=C.aS5(t),q=x.m
+r=B.b([s,F.bV,K.DC(A.Q2,B.dh(8),A.t6,12,r/100),F.df,B.V(""+C.aS5(t)+"% restored",u,u,u,I.l6,F.cS,u,u),F.cB,B.V(C.b37(t),u,u,u,A.anF,u,u,u),F.de],q)
+for(t=C.b38(t),w=0;w<4;++w){v=t[w]
+r.push(B.dI(!1,F.a2,!0,u,!0,u,u,u,!0,u,A.Wj,u,u,u,u,u,!1,u,u,u,u,u,u,B.V(v.a,u,u,u,F.eH,u,u,u),B.V(v.b,u,u,u,A.arq,u,u,u),u))}t=B.kf(B.bo(r,F.aO,F.m,F.L),u,F.ag)
 return B.ih(B.b([B.fR(F.eI,this.e,u)],q),u,D.t1,new B.dq(A.IN,t,u),u,A.aj5)}}
-C.QD.prototype={
+C.QF.prototype={
 D(d){var w=null
-return E.Er(w,w,A.acA,!1,w,w,w,this.d,w,w,w,!1,!1,!0)}}
+return E.Et(w,w,A.acA,!1,w,w,w,this.d,w,w,w,!1,!1,!0)}}
 C.ls.prototype={}
 C.tf.prototype={}
-C.RP.prototype={
+C.RR.prototype={
 D(d){var w=null
-return E.Er(w,w,A.acD,!1,w,w,w,this.d,w,w,w,!1,!1,!0)}}
-var z=a.updateTypes(["a7<~>(ls)","a7<~>(tf)","xf(S,~(~()))"])
+return E.Et(w,w,A.acD,!1,w,w,w,this.d,w,w,w,!1,!1,!0)}}
+var z=a.updateTypes(["a7<~>(ls)","a7<~>(tf)","xf(O,~(~()))"])
+C.aC4.prototype={
+$1(d){return new B.pv(new C.aC3(this.a,d),null)},
+$S:238}
 C.aC3.prototype={
-$1(d){return new B.pv(new C.aC2(this.a,d),null)},
-$S:237}
-C.aC2.prototype={
-$2(d,e){return new C.xf(this.a,null,new C.aC1(this.b),null)},
+$2(d,e){return new C.xf(this.a,null,new C.aC2(this.b),null)},
 $S:z+2}
-C.aC1.prototype={
+C.aC2.prototype={
 $0(){return B.ca(this.a,!1).cr()},
 $S:0}
-C.aC4.prototype={
+C.aC5.prototype={
 $2(d,e){var w,v,u=null,t=this.a,s=t.d
 s===$&&B.a()
 w=A.AP.h(0,s.a)
 w.toString
 v=x.m
-t=B.b([E.Er(u,u,w,!1,new B.bF(s.a,x.q),u,u,t.a.d,t.gai9(),s.gay4(),u,!1,!1,!0)],v)
-if(s.c)t.push(B.eN(0,B.fb(B.ci(B.bo(B.b([A.Lt,F.de,B.V("ENTERING "+s.d.toUpperCase(),u,u,u,A.aqd,u,u,u)],v),F.n,F.m,F.L),u,u),A.Me,!0)))
+t=B.b([E.Et(u,u,w,!1,new B.bF(s.a,x.q),u,u,t.a.d,t.gaia(),s.gay5(),u,!1,!1,!0)],v)
+if(s.c)t.push(B.eN(0,B.fc(B.ci(B.bo(B.b([A.Lt,F.de,B.V("ENTERING "+s.d.toUpperCase(),u,u,u,A.aqd,u,u,u)],v),F.n,F.m,F.L),u,u),A.Me,!0)))
 return B.bZ(F.a4,t,F.p,F.ae,u)},
-$S:93};(function installTearOffs(){var w=a._instance_1u
-w(C.Ew.prototype,"gay4","Di",0)
-w(C.JK.prototype,"gai9","A4",1)})();(function inheritance(){var w=a.inherit,v=a.inheritMany
-w(C.Ew,B.fx)
-w(C.Ex,B.W)
-w(C.JK,B.Z)
-w(C.aC3,B.dp)
-v(B.fz,[C.aC2,C.aC4])
-w(C.aC1,B.eJ)
-w(C.aiD,B.hu)
-v(B.X,[C.xf,C.QD,C.RP])
-v(B.R,[C.ls,C.tf])})()
-B.eE(b.typeUniverse,JSON.parse('{"Ew":{"ac":[]},"Ex":{"W":[],"f":[]},"JK":{"Z":["Ex"]},"xf":{"X":[],"f":[]},"QD":{"X":[],"f":[]},"RP":{"X":[],"f":[]}}'))
+$S:85};(function installTearOffs(){var w=a._instance_1u
+w(C.Ey.prototype,"gay5","Di",0)
+w(C.JM.prototype,"gaia","A4",1)})();(function inheritance(){var w=a.inherit,v=a.inheritMany
+w(C.Ey,B.fa)
+w(C.Ez,B.W)
+w(C.JM,B.Z)
+w(C.aC4,B.dp)
+v(B.fz,[C.aC3,C.aC5])
+w(C.aC2,B.eJ)
+w(C.aiE,B.hu)
+v(B.X,[C.xf,C.QF,C.RR])
+v(B.S,[C.ls,C.tf])})()
+B.eE(b.typeUniverse,JSON.parse('{"Ey":{"ab":[]},"Ez":{"W":[],"f":[]},"JM":{"Z":["Ez"]},"xf":{"X":[],"f":[]},"QF":{"X":[],"f":[]},"RR":{"X":[],"f":[]}}'))
 var y={k:"For once, the treasure remains solid in your hands.",j:"assets/perspective/treasure_beach_forest_ultrawide.png",h:"assets/perspective/treasure_beach_sand.webp"}
-var x={o:B.Q("l<c>"),a:B.Q("l<hW>"),l:B.Q("l<ls>"),y:B.Q("l<aM>"),j:B.Q("l<+(H,H)>"),u:B.Q("l<i>"),m:B.Q("l<f>"),q:B.Q("bF<H>"),v:B.Q("~")};(function constants(){var w=a.makeConstList
+var x={o:B.R("l<c>"),a:B.R("l<hW>"),l:B.R("l<ls>"),y:B.R("l<aM>"),j:B.R("l<+(H,H)>"),u:B.R("l<i>"),m:B.R("l<f>"),q:B.R("bF<H>"),v:B.R("~")};(function constants(){var w=a.makeConstList
 A.IN=new B.a6(0,560,0,1/0)
 A.Lt=new H.qQ(null,null,null,G.bq,null,null,null,null)
 A.Me=new B.h(0.8666666666666667,0.00784313725490196,0.0392156862745098,0.07058823529411765,F.c)
@@ -222,14 +222,14 @@ A.a9V=new B.c(5200,1055)
 A.a9W=new B.c(5200,1400)
 A.a6X=new B.c(0,1400)
 A.Ye=w([A.a6S,A.aav,A.a81,A.a8E,A.a9e,A.a9C,A.a9V,A.a9W,A.a6X],x.o)
-A.ov=new B.bO([D.bc,"assets/perspective/treasure_beach_palms.png",D.ai,"assets/perspective/treasure_beach_rocks.png",D.dO,"assets/perspective/pirates_cove_broken_dock_top_down.png",D.kr,"assets/perspective/pirates_cove_repair_scroll_table.png"],B.Q("bO<hm,H>"))
-A.hY=new B.bX(F.bv,[],B.Q("bX<p0,H>"))
+A.ov=new B.bO([D.bc,"assets/perspective/treasure_beach_palms.png",D.ai,"assets/perspective/treasure_beach_rocks.png",D.dO,"assets/perspective/pirates_cove_broken_dock_top_down.png",D.kr,"assets/perspective/pirates_cove_repair_scroll_table.png"],B.R("bO<hm,H>"))
+A.hY=new B.bX(F.bv,[],B.R("bX<p0,H>"))
 A.ahe=new B.i(2300,70,2900,220)
 A.acw=new C.ls("beach_to_ruins","ruined_settlement",A.ahe,"Ruined Settlement")
 A.Z8=w([A.acw],x.l)
 A.ayA=new B.c(2600,800)
 A.Kv=new C.tf()
-A.a_F=w([A.Kv],B.Q("l<tf>"))
+A.a_F=w([A.Kv],B.R("l<tf>"))
 A.a7w=new B.c(120,80)
 A.a9Q=new B.c(5080,80)
 A.a9R=new B.c(5080,990)
@@ -260,7 +260,7 @@ A.a9M=new B.c(4790,900)
 A.a9L=new B.c(4790,1370)
 A.a9G=new B.c(4530,1370)
 A.a02=w([A.a9H,A.a9M,A.a9L,A.a9G],x.o)
-A.a_i=w([A.a2r,A.a0W,A.a1j,A.a02],B.Q("l<a1<c>>"))
+A.a_i=w([A.a2r,A.a0W,A.a1j,A.a02],B.R("l<a1<c>>"))
 A.ahz=new B.i(260,330,800,640)
 A.agy=new B.i(1170,230,1600,500)
 A.ai3=new B.i(3610,270,4090,570)
@@ -339,7 +339,7 @@ A.a8Z=new B.c(3080,650)
 A.adi=new E.aM(A.a8Z,D.bc,1.8,!1)
 A.a0m=w([A.adh,A.acL,A.adr,A.acZ,A.adi],x.y)
 A.acx=new E.k8("Pirate's Cove \xb7 Jungle Edge","",3600,0,1100,A.a85,700,2.5006305170239598,!0,!1,!1,y.j,y.h,80,null,null,D.eD,125,D.ej,A.ov,A.hY,null,0,y.k,null,A.Zr,D.ek,A.a01,D.ch,A.a0a,A.a0m,D.fi,null)
-A.AP=new B.bX(A.a6G,[A.acC,A.acB,A.acx],B.Q("bX<H,k8>"))
+A.AP=new B.bX(A.a6G,[A.acC,A.acB,A.acx],B.R("bX<H,k8>"))
 A.aa5=new B.c(620,610)
 A.a6Z=new B.c(0,170)
 A.a93=new B.c(3200,170)
@@ -397,14 +397,14 @@ A.a8r=new B.c(2280,320)
 A.acs=new E.hW(A.a8r,150,!1,D.ev,!0)
 A.a2S=w([A.acn,A.acr,A.acq,A.acs],x.a)
 A.acD=new E.k8("2.5 D Map test","assets/Backgrounds/perspective_map_test.webp",2500,0,900,A.a7y,650,1.7777777777777777,!1,!0,!1,null,null,null,null,null,D.eD,125,D.ej,D.ow,A.hY,null,0,y.k,null,D.hH,D.ek,D.ej,D.ch,A.a_L,A.a0v,A.a2S,null)
-A.aet=new C.aiD(0,"destroyed")
+A.aet=new C.aiE(0,"destroyed")
 A.VR=new B.aL(D.uD,null,G.bq,null,null,null)
 A.aq6=new B.t(!0,G.bq,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 A.asI=new B.af("Pirate's Cove Repairs",null,A.aq6,null,null,null,null,null,null,null)
 A.a1Z=w([A.VR,F.dU,A.asI],x.m)
-A.aj5=new B.nb(F.aL,F.m,F.w,F.n,null,F.bn,null,0,A.a1Z,null)
+A.aj5=new B.nb(F.aM,F.m,F.w,F.n,null,F.bn,null,0,A.a1Z,null)
 A.anF=new B.t(!0,F.i,null,null,null,null,null,null,null,null,null,null,1.4,null,null,null,null,null,null,null,null,null,null,null,null,null)
 A.aod=new B.t(!0,F.i,null,null,null,null,20,F.bj,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 A.aqd=new B.t(!0,G.bq,null,null,null,null,null,F.bj,null,1.8,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 A.arq=new B.t(!0,G.bq,null,null,null,null,null,F.T,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["5q121IVjS6ta4bOC5U0ZPhFQ6RI="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["6Jjw+vtkk4pBcKe1VNLlG58PU/0="]=a.current})($__dart_deferred_initializers__);
